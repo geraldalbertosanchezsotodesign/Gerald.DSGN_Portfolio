@@ -961,10 +961,11 @@ div h3 a:hover{
 }
 
 
-div img{
-
-   min-height: 25px;
-   width: 50px;
+.footer div img {
+    width: 50px;
+    height: auto; 
+    display: block;
+    object-fit: contain;
 }
 
 
